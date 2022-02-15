@@ -1,0 +1,121 @@
+body{
+	background-color: black;
+	border-color: rgb(47,51,54);
+	margin: 0;
+	padding: 0;
+}
+
+.wd-heading-one{
+	padding-left: 16px;
+	padding-top: 12px;
+	color: white;
+	font-size: 20px;
+}
+
+.wd-handle{
+	color: lightgray;
+	font-size: 13px;
+	padding-left: 16px;
+	margin-top: -5px;
+}
+
+.wd-ruler{
+	margin-top: 12px;
+	border-style: groove;
+	border-color: lightgray;
+	border-width: 1px;
+}
+
+.wd-display-img{
+	padding-left: 16px;
+	padding-top: 12px;
+	width: 48px;
+    height: 48px;
+	border-radius: 50%;
+
+}
+p3 {
+
+	font-size: 15px;
+	color: white;
+}
+
+.wd-authorsinfo {
+
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 12px;
+    transform: translate(0px, -35px)
+
+}
+
+p1 {
+	font-size: 15px;
+	color: lightgray;
+	margin: 0px;
+}
+
+.wd-tweet-text{
+	color: white;
+	padding-left: 76px;
+	font-size: 15px;
+	max-width: 506px;
+	padding-right: 16px;
+	padding-bottom: 12px;
+	transform: translate(0px, -35px);
+}
+
+.wd-image-e{
+	width: 504px;
+	height: 264px;
+	border-radius: 20px;
+	padding-top: 12px;
+	padding-left: 76px;
+}
+
+.wd-title-secondary{
+	color: white;
+	padding: 12px;
+	padding-left: 76px;
+	font-size: 15px;
+	max-width: 506px;
+	padding-right: 16px;
+
+
+}
+
+.wd-text-secondary{
+	color: lightgray;
+	padding: 12px;
+	padding-left: 76px;
+	font-size: 15px;
+	max-width: 506px;
+	padding-right: 16px;
+	padding-bottom: 12px;
+}
+
+.wd-image-container{
+	border-color: lightgray;
+	border-width: 1px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-style: solid;
+	border-image-width: auto;
+
+}
+
+.wd-icon-links{
+	padding-top: 12px;
+	padding-left: 76px;
+	padding-bottom: 5px;
+}
+
+.wd-icon-link{
+	padding:20px;
+	color: lightgray;
+}
+
+.wd-icon-link-heart{
+    padding-left: 20px;
+	color: red;
+}
