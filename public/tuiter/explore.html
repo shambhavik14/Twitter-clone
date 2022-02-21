@@ -1,63 +1,263 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <link href="explore.css" rel="stylesheet"/>-->
+<!--    <script src="https://kit.fontawesome.com/e10ba885a6.js" crossorigin="anonymous"></script>-->
+<!--</head>-->
+<!--<body>-->
+<!--    <div class="container1">-->
+<!--            <div class="container">-->
+<!--                <i class="fa-solid fa-magnifying-glass"></i>-->
+<!--                <input type="text" placeholder="Search Twitter">-->
+<!--            </div>-->
+<!--            <a href="explore-settings.html">-->
+<!--                <i class="fa-solid fa-gear fa-xl"></i>-->
+<!--            </a>-->
+<!--    </div>-->
+<!--    <nav>-->
+<!--        <ul>-->
+<!--            <li><a href="#"><b>For you</b></a></li>-->
+<!--            <li><a href="#"><b>Trending</b></a></li>-->
+<!--            <li><a href="#"><b>COVID-19</b></a></li>-->
+<!--            <li><a href="#"><b>News</b></a></li>-->
+<!--            <li><a href="#"><b>Sports</b></a></li>-->
+<!--            <li><a href="#"><b>Entertainment</b></a></li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+<!--    <div class="grid-container">-->
+<!--        <div class="grid-item grid-item-1">-->
+<!--            <p1>Trending in Science</p1>-->
+<!--            <p><b>Starship</b></p>-->
+<!--            <p2>55.5k Tweets</p2>-->
+<!--        </div>-->
+<!--        <div class="grid-item grid-item-2">-->
+<!--            <p1>Sports Trending</p1>-->
+<!--            <p><b>Joe Rogan</b></p>-->
+<!--            <p2>5,218 Tweets</p2>-->
+<!--        </div>-->
+<!--        <div class="grid-item grid-item-3">-->
+<!--            <img src="cnn.jfif" width="100px">-->
+<!--            <p3><b>The New York Times</b></p3>  .  <p1>Yesterday</p1>-->
+<!--            <p><b>CNN's Cuomo conundrum: A star anchor with a border in the trouble</b></p>-->
+<!--            -->
+<!--        </div>-->
+<!--        <div class="grid-item grid-item-4">-->
+<!--            <img src="covid.jfif" width="100px">-->
+<!--            <p1>COVID-19 LIVE</p1>-->
+<!--            <p><b>COVID-19: News and updates for Massachusetts</b></p>-->
+<!--        </div>-->
+
+<!--        <div class="grid-item grid-item-5">-->
+<!--            <img src="booster.jpg" width="100px">-->
+<!--            <p3><b>Bloomberg Opinion</b></p3>  .  <p1>Yesterday</p1>-->
+<!--            <p><b>Thinking about getting a booster? Read this first.</b></p>-->
+<!--        </div>-->
+<!--        <div class="grid-item grid-item-5">-->
+<!--            <p1>Trending in United States</p1>-->
+<!--            <p><b>Wonder Bread</b></p>-->
+<!--            <p2>1,259 Tweets</p2>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</body>-->
+<!--</html>-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="explore.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/e10ba885a6.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container1">
-            <div class="container">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search Twitter">
+<div class="container mt-2">
+    <div class="row">
+        <div class="col-2 col-md-2 col-lg-2">
+            <div class="list-group">
+                <a href="Home" class="list-group-item list-group-item-action">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="Home" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-house"></i>
+                    <span class="wd-text">Home</span>
+                </a>
+                <a href="" class="list-group-item list-group-item-action active" aria-current="true">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <span class="wd-text">Explore</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bell"></i>
+                    <span class="wd-text">Notifications</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="wd-text">Messages</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-bookmark"></i>
+                    <span class="wd-text">Bookmarks</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-list"></i>
+                    <span class="wd-text">Lists</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="wd-text">Profile</span></a>
+                <a href="" class="list-group-item list-group-item-action">
+                    <i class="fa-regular fa-circle-down"></i>
+                    <span class="wd-text">More</span></a>
+                <button type="button"
+                        class="btn btn-primary">
+                    Tweet</button>
             </div>
-            <a href="explore-settings.html">
-                <i class="fa-solid fa-gear fa-xl"></i>
-            </a>
-    </div>
-    <nav>
-        <ul>
-            <li><a href="#"><b>For you</b></a></li>
-            <li><a href="#"><b>Trending</b></a></li>
-            <li><a href="#"><b>COVID-19</b></a></li>
-            <li><a href="#"><b>News</b></a></li>
-            <li><a href="#"><b>Sports</b></a></li>
-            <li><a href="#"><b>Entertainment</b></a></li>
-        </ul>
-    </nav>
-    <div class="grid-container">
-        <div class="grid-item grid-item-1">
-            <p1>Trending in Science</p1>
-            <p><b>Starship</b></p>
-            <p2>55.5k Tweets</p2>
         </div>
-        <div class="grid-item grid-item-2">
-            <p1>Sports Trending</p1>
-            <p><b>Joe Rogan</b></p>
-            <p2>5,218 Tweets</p2>
-        </div>
-        <div class="grid-item grid-item-3">
-            <img src="cnn.jfif" width="100px">
-            <p3><b>The New York Times</b></p3>  .  <p1>Yesterday</p1>
-            <p><b>CNN's Cuomo conundrum: A star anchor with a border in the trouble</b></p>
-            
-        </div>
-        <div class="grid-item grid-item-4">
-            <img src="covid.jfif" width="100px">
-            <p1>COVID-19 LIVE</p1>
-            <p><b>COVID-19: News and updates for Massachusetts</b></p>
-        </div>
+        <div class="col-10 col-md-10 col-lg-6">
+            <span class="wd-search"><i class="fa fa-search"></i></span>
+            <div class="input-group">
+                <input type="search" class="form-control rounded-pill" placeholder="Search Twitter" aria-label="Search"
+                aria-describedby="search-addon"/>
+                <i class = "fa fa-cog fa-2x"></i>
+            </div>
+<!--            <div class = "container1">-->
+<!--                <div class="form-group has-search">-->
+<!--                    <span class="fa fa-search form-control-feedback"></span>-->
+<!--                    <input type="text" class="form-control rounded-pill" placeholder="Search">-->
+<!--                </div>-->
+<!--                <a href="explore-settings.html">-->
+<!--                    <i class="fa-solid fa-gear fa-xl"></i>-->
+<!--                </a>-->
+<!--            </div>-->
+            <ul class="nav nav-tabs mt-2 mb-2">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">For you</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Trending</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sports</a>
+                </li>
+                <li class="nav-item-en">
+                    <a class="nav-link" href="#">Entertainment</a>
+                </li>
+            </ul>
+            <div class="card">
+                <img src="spacex.jpg" class="card-img-top" alt="...">
 
-        <div class="grid-item grid-item-5">
-            <img src="booster.jpg" width="100px">
-            <p3><b>Bloomberg Opinion</b></p3>  .  <p1>Yesterday</p1>
-            <p><b>Thinking about getting a booster? Read this first.</b></p>
+                <div class="card-body">
+                    <p3> Web Development </p3>
+                    <div class="wd-authorsinfo">
+                        <p1><b>ReactJS</b></p1><p3> - 2h</p3><br>
+
+                    </div>
+                    <img src="react.png" class="wd-display-img" alt="Avatar">
+                    <p1><b>React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs</b></p1>
+                </div>
+
+                <div class="card-body">
+                    <div class="wd-authorsinfo">
+                        <p1><b>JavaScript</b></p1><p3> - 2h</p3><br>
+
+                    </div>
+                    <img src="javascript.png" class="wd-display-img1" alt="Avatar">
+                    <p1><b>JavaScript is a programming language that can run on browsers as well as desktops</b></p1><br>
+                    <p3>123K Tweets</p3>
+                </div>
+
+                <div class="card-body">
+                    <p3> Web Development </p3>
+                    <div class="wd-authorsinfo">
+                        <p1><b>jQuery</b></p1><br>
+                    </div>
+                    <img src="jquery.png" class="wd-display-img" alt="Avatar">
+                    <p3>123K Tweets</p3>
+                </div>
+
+                <div class="card-body">
+                    <p3> Web Development </p3>
+                    <div class="wd-authorsinfo">
+                        <p1><b>NodeJS</b></p1><br>
+
+                    </div>
+                    <img src="nodejs.png" class="wd-display-img" alt="Avatar">
+                    <p3>123K Tweets</p3>
+                </div>
+
+            </div>
+
+
+
         </div>
-        <div class="grid-item grid-item-5">
-            <p1>Trending in United States</p1>
-            <p><b>Wonder Bread</b></p>
-            <p2>1,259 Tweets</p2>
+        <div class="col-lg-4 d-none d-lg-block">
+            <div class="list-group1">
+                <div class="list-group-items"><b>Who to follow</b></div>
+                <div class="list-group-items">
+                    <img src="java.png" class="right-display-img" alt="Avatar">
+                    <div class="title-info">
+                        <p><b>Java</b></p>
+                    </div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p4 class="handle">@Java</p4>
+                    <button type="button"
+                            class="btn btn-primary">
+                        Follow</button>
+                </div>
+                <div class="list-group-items">
+                    <img src="relativity.png" class="right-display-img" alt="Avatar">
+                    <div class="title-info">
+                        <p><b>Relativity Space</b></p>
+                    </div>
+
+                    <p4 class="handle">@relativityspace</p4>
+                    <button type="button"
+                            class="btn btn-primary">
+                        Follow</button>
+                    <div class="icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+
+                </div>
+                <div class="list-group-items">
+                    <img src="virgin.jpg" class="right-display-img" alt="Avatar">
+                    <div class="title-info">
+                        <p><b>Virgin Galactic</b></p>
+                    </div>
+
+                    <p4 class="handle">@virgingalactic</p4>
+                    <button type="button"
+                            class="btn btn-primary">
+                        Follow</button>
+                    <div class="icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+
+                </div>
+
+                <div class="list-group-items">
+                    <img src="nasa.png" class="right-display-img" alt="Avatar">
+                    <div class="title-info">
+                        <p><b>NASA</b></p>
+                    </div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p4 class="handle">@NASA</p4>
+                    <button type="button"
+                            class="btn btn-primary">
+                        Follow</button>
+                </div>
+
+                <div class="list-group-items">
+                    <img src="tesla.png" class="right-display-img" alt="Avatar">
+                    <div class="title-info">
+                        <p><b>Tesla</b></p>
+                    </div>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <p4 class="handle">@Tesla</p4>
+                    <button type="button"
+                            class="btn btn-primary">
+                        Follow</button>
+                </div>
+            </div>
         </div>
     </div>
-
+</div>
 </body>
 </html>
