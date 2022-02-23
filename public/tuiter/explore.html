@@ -103,16 +103,16 @@
                     <i class="fa-regular fa-circle-down"></i>
                     <span class="wd-text">More</span></a>
                 <button type="button"
-                        class="btn btn-primary">
+                        class="btn btn-primary mt-2" style="border-radius: 20px">
                     Tweet</button>
             </div>
         </div>
-        <div class="col-10 col-md-10 col-lg-6">
-            <span class="wd-search"><i class="fa fa-search"></i></span>
-            <div class="input-group">
+        <div class="col-10 col-md-10 col-lg-6" >
+            <span class="wd-search" style="color: rgb(110, 118, 125)"><i class="fa fa-search"></i></span>
+            <div class="input-group" >
                 <input type="search" class="form-control rounded-pill" placeholder="Search Twitter" aria-label="Search"
-                aria-describedby="search-addon"/>
-                <i class = "fa fa-cog fa-2x"></i>
+                aria-describedby="search-addon" style="background-color: rgb(56, 56, 56)"/>
+                <i class = "fa fa-cog fa-2x" style="color: white"></i>
             </div>
 <!--            <div class = "container1">-->
 <!--                <div class="form-group has-search">-->
@@ -123,9 +123,9 @@
 <!--                    <i class="fa-solid fa-gear fa-xl"></i>-->
 <!--                </a>-->
 <!--            </div>-->
-            <ul class="nav nav-tabs mt-2 mb-2">
+            <ul class="nav nav-tabs mt-2 mb-2" style="border-bottom: transparent">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">For you</a>
+                    <a class="nav-link" href="#">For you</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Trending</a>
@@ -137,16 +137,20 @@
                     <a class="nav-link" href="#">Sports</a>
                 </li>
                 <li class="nav-item-en">
-                    <a class="nav-link" href="#">Entertainment</a>
+                    <a class="nav-link" style=" border-bottom: 4px solid rgb(22, 139, 222)" href="#">Entertainment</a>
                 </li>
             </ul>
-            <div class="card">
+            <div class="card border-0" >
+
                 <img src="spacex.jpg" class="card-img-top" alt="...">
+                <div class="card-img-overlay">
+                    <p class="card-text pt-100px" style=""><b>SpaceX's Starship</b></p>
+                </div>
 
                 <div class="card-body">
                     <p3> Web Development </p3>
                     <div class="wd-authorsinfo">
-                        <p1><b>ReactJS</b></p1><p3> - 2h</p3><br>
+                        <p1><b>ReactJS</b></p1><i class="fa-solid fa-circle-check ps-2"></i><p3> - 2h</p3><br>
 
                     </div>
                     <img src="react.png" class="wd-display-img" alt="Avatar">
@@ -155,7 +159,7 @@
 
                 <div class="card-body">
                     <div class="wd-authorsinfo">
-                        <p1><b>JavaScript</b></p1><p3> - 2h</p3><br>
+                        <p1><b>JavaScript</b></p1><i class="fa-solid fa-circle-check ps-2"></i><p3> - 2h</p3><br>
 
                     </div>
                     <img src="javascript.png" class="wd-display-img1" alt="Avatar">
@@ -175,10 +179,10 @@
                 <div class="card-body">
                     <p3> Web Development </p3>
                     <div class="wd-authorsinfo">
-                        <p1><b>NodeJS</b></p1><br>
+                        <p1><b>NodeJS</b></p1><i class="fa-solid fa-circle-check ps-2"></i><br>
 
                     </div>
-                    <img src="nodejs.png" class="wd-display-img" alt="Avatar">
+                    <img src="nodejs.jpg" class="wd-display-img" alt="Avatar">
                     <p3>123K Tweets</p3>
                 </div>
 
@@ -189,7 +193,7 @@
         </div>
         <div class="col-lg-4 d-none d-lg-block">
             <div class="list-group1">
-                <div class="list-group-items"><b>Who to follow</b></div>
+                <div class="list-group-items ms-2"><b>Who to follow</b></div>
                 <div class="list-group-items">
                     <img src="java.png" class="right-display-img" alt="Avatar">
                     <div class="title-info">
