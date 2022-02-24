@@ -293,7 +293,9 @@ p3 {
       .nav-item-en{
         display: none;
       }
-
+      .card-text{
+                 margin-top: 240px;
+               }
 }
 
 @media screen and (max-width: 992px) {
@@ -313,3 +315,4 @@ p3 {
            margin-top: 190px;
          }
 }
+
