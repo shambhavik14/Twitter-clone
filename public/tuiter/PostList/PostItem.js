@@ -1,6 +1,6 @@
 const PostItem = (post) => {
     return(`
-            <li class="list-group-item">
+            <li class="list-group-item1">
 		    	<img src="${post.image}" class="wd-display-img"/>
 		    	<a href="#" class="wd-topic-heading">${post.author}  </a><i class="fa fa-check-circle"></i><a href="#" class="wd-follow-handle">@${post.handle}</a>
 		    	<span class="wd-topic-time"> - ${post.time}</span><br>
