@@ -13,6 +13,13 @@ const Labs = () => {
                 <TodoList/>
                 <Styles/>
                 <Classes/>
+                <br/>
+                <Link to="/tuiter/home">
+                 Tuiter
+                </Link> |
+                <Link to="/hello">
+                Hello
+                </Link>
             </div>
         )
 };
