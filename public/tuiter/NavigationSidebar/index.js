@@ -3,7 +3,7 @@ const NavigationSidebar = (active) => {
         return(`
             <nav class="wd-first-column">
                     <a href="#" class="list-group-item list-group-item-action">
-                    <i class="fa fa-twitter fa-2x"></i>
+                    <i class="fa fa-twitter "></i>
                     </a>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a href="../HomeScreen/home.html" class="list-group-item list-group-item-action" aria-current="true">
@@ -24,17 +24,18 @@ const NavigationSidebar = (active) => {
                         <li class="nav-item"><a href="#" class="list-group-item list-group-item-action">
                         <i class="fa fa-ellipsis-h"></i><span class="wd-menu-text">More</span></a></li>
                     </ul>
+                    </nav>
                     <button class="btn btn-primary btn-sm tweetBtn" type="button">
                         Tweet
                     </button>
-                </nav>
+
     `);
     }
     else if(active == 'home'){
         return(`
             <nav class="wd-first-column">
                     <a href="#" class="list-group-item list-group-item-action">
-                    <i class="fa fa-twitter fa-2x"></i>
+                    <i class="fa fa-twitter"></i>
                     </a>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a href="../HomeScreen/home.html" class="list-group-item list-group-item-action active" aria-current="true">
@@ -55,17 +56,18 @@ const NavigationSidebar = (active) => {
                         <li class="nav-item"><a href="#" class="list-group-item list-group-item-action">
                         <i class="fa fa-ellipsis-h"></i><span class="wd-menu-text">More</span></a></li>
                     </ul>
+                    </nav>
                     <button class="btn btn-primary btn-sm tweetBtn" type="button">
                         Tweet
                     </button>
-                </nav>
+
     `);
     }
     else{
         return(`
             <nav class="wd-first-column">
                     <a href="#" class="list-group-item list-group-item-action">
-                    <i class="fa fa-twitter fa-2x"></i>
+                    <i class="fa fa-twitter "></i>
                     </a>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a href="../HomeScreen/home.html" class="list-group-item list-group-item-action active" aria-current="true">
@@ -86,10 +88,11 @@ const NavigationSidebar = (active) => {
                         <li class="nav-item"><a href="#" class="list-group-item list-group-item-action">
                         <i class="fa fa-ellipsis-h"></i><span class="wd-menu-text">More</span></a></li>
                     </ul>
+                    </nav>
                     <button class="btn btn-primary btn-sm tweetBtn" type="button">
                         Tweet
                     </button>
-                </nav>
+
     `);
     }
 
