@@ -122,7 +122,6 @@
 .list-group-item.list-group-item-action{
 	text-decoration: none;
 	color: white;
-	background-color: black;
 	border-color: black;
 }
 
@@ -149,7 +148,6 @@
 .list-group-item{
 	color: white;
 	font-weight: bold;
-	background-color: black;
 	padding-bottom: 10px;
 }
 
@@ -168,7 +166,7 @@
 }
 
 .wd-first-column{
-	background-color: black;
+	background-color: #303030;
 }
 
 .form-control{

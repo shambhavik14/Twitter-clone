@@ -26,6 +26,10 @@ const ExploreComponent = () => {
               <a class="nav-link" href="#"><span class="wd-nav-text-vanish">Entertainment</span></a>
           </li>
       </ul>
+      <div class="wd-head-image">
+      <img src="starship.jpg" class="wd-topic-heading-image"/>
+      <div class="wd-img-text">SpaceX Starship</div>
+       </div>
            ${PostSummaryList()}
     `);
 }
