@@ -34,11 +34,11 @@
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: #fff;
-    background-color: #000;
+    color: white;
+    background-color: rgb(22, 139, 222);
     border-color: black;
-    border-bottom-color: #1F1FD1;
-    border-width: 3px;
+    border-bottom-color: transparent;
+
 }
 
 .btn-primary.btn-sm.followBtn{
@@ -75,7 +75,8 @@
 }
 
 .list-group{
-	margin-top: 15px;
+	margin-top: 5px;
+	border: transparent;
 }
 
 .wd-topic-topicname{
@@ -121,14 +122,14 @@
 .list-group-item.list-group-item-action{
 	text-decoration: none;
 	color: white;
-	background-color: black;
 	border-color: black;
 }
 
 .fa.fa-cog.fa-2x{
-	-webkit-text-fill-color: black;
+    color: rgb(22, 139, 222);
+	/*-webkit-text-fill-color: black;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: gray;
+	-webkit-text-stroke-color: gray;*/
 }
 
 .container{
@@ -147,30 +148,30 @@
 .list-group-item{
 	color: white;
 	font-weight: bold;
-	background-color: black;
-	border-color: gray;
+	padding-bottom: 10px;
 }
 
 .btn.btn-primary.btn-sm.followBtn{
-	color: black;
-	background-color: white;
-	border-style: none;
-	font-weight: bold;
+	float: right;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-top: -17px;
 }
 
 
 .nav.nav-tabs{
+
 	background-color: black;
-	border-bottom-color: gray;
+	border-bottom-color: transparent;
 }
 
 .wd-first-column{
-	background-color: black;
+	background-color: #303030;
 }
 
 .form-control{
-	background-color: #353536;
-	color: white;
+	background-color: white;
+	color: #808080;
 	padding-left: 30px;
 	border-style: none;
 	border-radius: 30px;
@@ -190,6 +191,9 @@
 	padding-right: 15px;
 }
 
+.fa-brands fa-twitter{
+    color: white;
+}
 
 .fa.fa-envelope{
 	padding-right: 15px;
@@ -205,6 +209,9 @@
 	padding-right: 15px;
 }
 
+.fa fa-twitter fa-2x{
+    color: white;
+}
 
 .fa.fa-user{
 	padding-right: 19px;
@@ -215,11 +222,11 @@
 }
 
 .wd-nav-text{
-	color: gray;
+	color: white;
 }
 
 .wd-nav-text-vanish{
-	color: gray;
+	color: white;
 }
 
 .wd-nav-text-selected{
@@ -227,11 +234,12 @@
 }
 
 .nav-link{
+
 	background-color: black;
 }
 
 .nav-link.active{
-	background-color: black;
+	border-bottom: 4px solid rgb(22, 139, 222);
 }
 
 
@@ -262,4 +270,5 @@
 	margin-left: 10px;
 	font-size: 30px;
 }
+
 
