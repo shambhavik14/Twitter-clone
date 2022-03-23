@@ -3,8 +3,8 @@ import PostItem from "./PostItem.js";
 
 const PostList = () => {
     return(`
-    	<ul class="list-group">
-    		<li class="list-group-item">
+    	<ul class="list-group1">
+    		<li class="list-group-item1">
             ${
                 posts.map(posts => {
                     return(PostItem(posts));
@@ -15,9 +15,3 @@ const PostList = () => {
     `);
 }
 export default PostList;
-
-
-            // <div class="wd-head-image">
-            //   <img src="starship.jpg" class="wd-topic-heading-image">
-            // <div class="wd-img-text">SpaceX's Starship</div>
-            // </div>
