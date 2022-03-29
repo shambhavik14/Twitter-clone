@@ -1,0 +1,177 @@
+.wd-title-text{
+    font-weight: bold;
+    margin-left: 1px;
+    font-size: 18px;
+}
+
+.wd-edit-title{
+    padding-left: 1px;
+    padding-right: 1px;
+    display: flex;
+}
+
+.wd-save-button{
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.fas.fa-times {
+    color: white;
+    font-size: 18px;
+}
+
+.wd-dp{
+    margin: 8px;
+    float: left;
+    /* padding-bottom: 50%; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.wd-gray{
+
+    margin: 0px;
+    display: inline;
+}
+
+.wd-nostyle{
+    list-style-type: none;
+}
+
+.wd-inner{
+    width: -webkit-fill-available;
+    padding: 0px !important;
+}
+
+.wd-iFirst{
+    margin-right: 10px;
+}
+
+.wd-i{
+    margin-right: 10px;
+    margin-left: 55px;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.wd-right{
+    padding-top: 5px;
+    color: #808080;
+    float: right;
+}
+
+.wd-back{
+    position: sticky;
+    display: inline;
+}
+
+.wd-coverimg{
+    width: 100%;
+    height: 180px;
+}
+
+.wd-edit-details{
+    position: relative;
+    background-color: black;
+
+}
+
+.wd-dpimg{
+    position: sticky;
+    width: 120px;
+    /* float: left; */
+    margin-left: 10px;
+    top: 170px;
+    margin-top: -70px;
+    clip-path: circle();
+    border: 1px solid black;
+
+}
+
+.btn-save, .btn-save:focus{
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+/*.rounded{*/
+/*    border-radius: 150% !important;*/
+/*}*/
+
+.btn-light{
+    border-color: grey !important;
+    float: right;
+}
+
+.wd-lightText3{
+    color: #808080;
+    margin-left: 15px;
+    font-size: small;
+
+}
+
+
+.heading {
+    height: 30px;
+    background-color: black;
+
+}
+
+.fa.fa-long-arrow-alt-left{
+    padding-top: -50px;
+}
+
+.text {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    border: transparent;
+}
+
+.wd-lightText1 {
+    font-size: small;
+    margin-left: 40px;
+    padding-top: -10px;
+
+}
+
+.btn.btn-light {
+    margin-top: 10px;
+    background-color: black;
+}
+
+.text1 {
+    color: white;
+    margin-top: -10px;
+    margin-left: 17px;
+}
+
+
+
+.wd-lightText2{
+    font-size: small;
+}
+/*
+            <p>
+                <span className="fs-5 text fw-bold">{profile.firstName} {profile.lastName}</span>
+                <span className="d-block wd-lightText pt-1">{profile.handle} </span>
+            </p>
+            <p className="fs-6 text fw-lighter">
+                {profile.bio}
+                <br />
+            </p>
+
+            <span className="wd-lightText">
+                <i className="fas fa-map-marker-alt"/>&nbsp; {profile.location} &nbsp;&nbsp;
+                <i className="fas fa-link"/>&nbsp; <a href={profile.website} className="wd-profileA">{profile.website} &nbsp;&nbsp;</a>
+                <i className="fas fa-map-pin"/>&nbsp; {profile.dateOfBirth} &nbsp;&nbsp;
+                <i className="fas fa-calendar-alt"/>&nbsp; {profile.dateJoined} &nbsp;&nbsp;
+            </span>
+            <br />
+            {profile.followingCount} <span className="wd-lightText">Following</span> &nbsp;&nbsp;
+            {profile.followersCount} <span className="wd-lightText">Followers</span>*/
