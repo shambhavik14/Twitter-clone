@@ -48,10 +48,3 @@ function App() {
 
 export default App;
 
-/*
-
-{["/", "/labs"].map(path => (
-         <Route path={path}
-                exact={true}
-                element={<Labs/>}/>
-         ))} */
