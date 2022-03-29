@@ -21,8 +21,7 @@ function App() {
    <BrowserRouter>
      <div className="container">
        <Routes>
-         <Route path="/">
-           <Route path="labs"
+           <Route path=""
                   element={<Labs/>}/>
            <Route path="hello"
                   element={<HelloWorld/>}/>
@@ -36,7 +35,6 @@ function App() {
                     element={<ProfileScreen/>}/>
              <Route path="editprofile"
                     element={<EditProfile/>}/>
-           </Route>
          </Route>
        </Routes>
      </div>
