@@ -11,7 +11,7 @@ const ProfileItem = ({profile}) => {
     <>
             <div className = "heading">
             <i className="fa fa-long-arrow-alt-left wd-back fa-lg "/>
-            <span className="text">{profile.firstName} {profile.lastName} <br/></span>
+            <span className="text">{profile.name}<br/></span>
             <span className="d-block wd-lightText1">7000 Tweets</span>
             </div>
             <br />
@@ -23,7 +23,7 @@ const ProfileItem = ({profile}) => {
              </Link>
             </div>
             <p>
-            <span className="fs-5 text fw-bold">{profile.firstName} {profile.lastName}</span>
+            <span className="fs-5 text fw-bold">{profile.name}</span>
             <span className="d-block wd-lightText2 ps-3">{profile.handle} </span>
             </p>
             <p className="fs-6 text1 ">{profile.bio}<br />
