@@ -5,7 +5,6 @@ import "./home.css"
 const HomeScreen = () => {
   return(
     <div>
-      <WhatsHappening/>
       <TuitList/>
     </div>
   )

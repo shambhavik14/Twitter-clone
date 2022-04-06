@@ -84,7 +84,7 @@ a{
     position: sticky;
     width: 120px;
     /* float: left; */
-    margin-left: 10px;
+    margin-left: 15px;
     top: 170px;
     margin-top: -70px;
     clip-path: circle();

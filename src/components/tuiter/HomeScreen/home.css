@@ -1,3 +1,5 @@
+
+
 .fa-cog.fa-2x{
 	color: blue;
 	vertical-align: middle;
@@ -10,12 +12,10 @@
 }
 
 .wd-display-img{
-	padding-left: 0px;
-	padding-top: 12px;
-	border-radius: 90%;
-	width: 48px;
-	padding-bottom: 10px;
-	padding-right: 10px;
+position: sticky;
+margin-right: 5px;
+	width: 50px;
+	clip-path: circle();
 }
 
 .wd-search-glass{

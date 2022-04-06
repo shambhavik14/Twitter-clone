@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "firstName": "Susie",	"lastName": "Mayerson",	"handle": "@susieandassociates",
+    "name": "Susie Mayerson",	"handle": "@susieandassociates",
     "profilePicture": "../../images/susie.jpg", 	"bannerPicture": "../../images/marvelous.jpg",
     "bio": "I am a talent manager and I am the best in town.",	"website": "www.Idareyou.com",
     "location": "Boston, MA",	"dateOfBirth": "02/29/1938",	"dateJoined": "4/2010",

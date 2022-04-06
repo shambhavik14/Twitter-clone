@@ -2,36 +2,25 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch} from "react-redux";
 import {useSelector} from "react-redux";
-import moment from "moment";
-
-const currentProfile = (state) => state.profile;
 
 
 const EditProfileItem = () => {
-    let profile = useSelector(currentProfile);
-    profile = profile[0];
-    const dob = moment(profile.dateOfBirth, 'M/D/Y').format('MMMM D, Y');
-    const [values, setValues] = useState({});
-    const dispatch = useDispatch();
-
-    const onChangeHandler = (event) => {
-        const name = event.target.name;
-        const value = event.target.value;
-        console.log("on change", name, value);
-        if(name === "dateOfBirth"){
-            setValues((values) => ({ ...values, [name]: value }));
-        }
-        else{
-            setValues((values) => ({ ...values, [name]: value }));
-        }
-    };
-
-    const onSubmit = () => {
-        dispatch({
-                     type: "edit-profile",
-                     profile: values,
-                 });
-    };
+ let profile =
+       useSelector(state => state.profile[0]);
+ const [name, setname] = useState(profile.name);
+ const [bio, setBio] = useState(profile.bio);
+ const [location, setLocation] = useState(profile.location);
+ const [website, setWebsite] = useState(profile.website);
+ const [dateOfBirth, setdateOfBirth] = useState(profile.dateOfBirth);
+ const dispatch = useDispatch();
+ const editProfileClickHandler = () => {
+      dispatch({type: 'edit-profile',
+      name: name,
+      bio: bio,
+      location: location,
+      website: website,
+      dateOfBirth: dateOfBirth});
+      }
 
 
     return(
@@ -49,8 +38,7 @@ const EditProfileItem = () => {
                         <Link
                             className="btn btn-save"
                             to="/tuiter/profile"
-                            onClick={onSubmit}
-                        >
+                            onClick={editProfileClickHandler}>
                             Save
                         </Link>
                     </div>
@@ -76,49 +64,38 @@ const EditProfileItem = () => {
                 <ul className="list-group">
                     <li className="list-group-item">
                         <label> Name</label>
-                        <input
-                            onChange={onChangeHandler}
-                            defaultValue={profile.firstName + " " + profile.lastName}
+                        <input type = "text"
                             className="form-control"
-                            name="name"
-                        />
+                            defaultValue={profile.name}
+                            onChange={(event) => setname(event.target.value)}/>
                     </li>
                     <li className="list-group-item">
                         <label> Bio</label>
-                        <textarea
-    onChange={onChangeHandler}
-    defaultValue={profile.bio}
-    className="form-control"
-    name="bio"
-    />
+                        <input type = "text"
+                          className="form-control"
+                          defaultValue={profile.bio}
+                          onChange={(event) => setBio(event.target.value)}/>
                     </li>
                     <li className="list-group-item">
                         <label> Location</label>
-                        <input
-                            onChange={onChangeHandler}
-                            defaultValue={profile.location}
-                            className="form-control"
-                            name="location"
-                        />
+                        <input type = "text"
+                        className="form-control"
+                        defaultValue={profile.location}
+                        onChange={(event) => setLocation(event.target.value)}/>
                     </li>
                     <li className="list-group-item">
                         <label> Website</label>
-                        <input
-                            onChange={onChangeHandler}
-                            defaultValue={profile.website}
-                            className="form-control"
-                            name="website"
-                        />
+                        <input type = "text"
+                        className="form-control"
+                        defaultValue={profile.website}
+                        onChange={(event) => setWebsite(event.target.value)}/>
                     </li>
                     <li className="list-group-item">
                         <label> Birth date</label>
-                        <input
-                            onChange={onChangeHandler}
-                            type="date"
-                            defaultValue={dob}
-                            className="form-control"
-                            name="dateOfBirth"
-                        />
+                        <input type = "text"
+                        className="form-control"
+                        defaultValue={profile.dateOfBirth}
+                        onChange={(event) => setdateOfBirth(event.target.value)}/>
                     </li>
                 </ul>
             </div>

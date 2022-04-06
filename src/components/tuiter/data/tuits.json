@@ -11,7 +11,8 @@
     "stats": {
       "comments": 123,
       "retuits": 23,
-      "likes": 36
+      "likes": 36,
+      "dislikes": 70
     }
   },
   {
@@ -26,6 +27,7 @@
     "stats": {
       "comments": 183,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 40
     }
   }]
