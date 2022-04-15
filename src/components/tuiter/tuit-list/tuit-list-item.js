@@ -1,6 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTuit, dislikeTuit, updateTuit } from "../../../actions/tuits-actions";
+import {deleteTuit, updateTuit } from "../../../actions/tuits-actions";
 import TuitStats from "./tuit-stats"
 const TuitListItem = ({tuits}) => {
   const dispatch = useDispatch();
@@ -26,7 +26,7 @@ const TuitListItem = ({tuits}) => {
                                              likes: tuits.likes + 1
                                            })} className="far fa-thumbs-up ms-2 me-5"></i>
                        Dislikes: {tuits.dislikes}
-                       <i onClick={() => dislikeTuit(dispatch, {
+                       <i onClick={() => updateTuit(dispatch, {
                        ...tuits,
                        dislikes: tuits.dislikes - 1})} className="far fa-thumbs-down ms-2"></i>
                        </span>

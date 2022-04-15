@@ -1,5 +1,5 @@
 /*import tuits from "../data/tuits.json";*/
-import { DISLIKE_TUIT, UPDATE_TUIT, CREATE_TUIT, DELETE_TUIT, FIND_ALL_TUITS} from "../../../actions/tuits-actions";
+import {UPDATE_TUIT, CREATE_TUIT, DELETE_TUIT, FIND_ALL_TUITS} from "../../../actions/tuits-actions";
 
 
 const tuitsReducer = (state = [], action) => {
@@ -18,10 +18,7 @@ const tuitsReducer = (state = [], action) => {
                              return state.map(
                                tuits => tuits._id === action.tuits._id ?
                                  action.tuits : tuits);
-                         case DISLIKE_TUIT:
-                             return state.map(
-                             tuits => tuits._id === action.tuits._id ?
-                             action.tuits : tuits);
+
                         default:
                           return state;
                       }

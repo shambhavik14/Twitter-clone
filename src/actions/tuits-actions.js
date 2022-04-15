@@ -4,7 +4,7 @@ export const CREATE_TUIT = 'CREATE_TUIT';
 export const FIND_ALL_TUITS = 'FIND_ALL_TUITS';
 export const UPDATE_TUIT = 'UPDATE_TUIT';
 export const DELETE_TUIT = 'DELETE_TUIT';
-export const DISLIKE_TUIT = 'DISLIKE_TUIT';
+/*export const DISLIKE_TUIT = 'DISLIKE_TUIT';*/
 
 export const createTuit = async (dispatch, tuits) => {
  const newTuit = await service.createTuit(tuits);
@@ -39,13 +39,13 @@ export const deleteTuit = async (dispatch, tuits) => {
  })
 }
 
-export const dislikeTuit = async (dispatch, tuits) => {
+/*export const dislikeTuit = async (dispatch, tuits) => {
  const status = await service.dislikeTuit(tuits);
  dispatch({
    type: DISLIKE_TUIT,
    tuits
  });
-}
+}*/
 
 
 
