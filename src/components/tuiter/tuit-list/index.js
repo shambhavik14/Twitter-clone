@@ -13,7 +13,7 @@ const tuits = useSelector(
        findAllTuits(dispatch),
        []);
 const [newTuit, setNewTuit] =
-      useState({tuit: ''});
+      useState({tuit: 'New Tuit'});
 
 
 
