@@ -3,10 +3,10 @@ import {useDispatch} from "react-redux";
 
 const WhatsHappening = () => {
   let [whatsHappening, setWhatsHappening]
-      = useState('');
+      = useState({tuit: 'newTuit'});
   const dispatch = useDispatch();
   const tuitClickHandler = () => {
-    dispatch({type: 'create-tuit',
+    dispatch({type: 'CREATE_TUIT',
          tuit: whatsHappening
        });
   }
