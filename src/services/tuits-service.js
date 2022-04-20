@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = process.env.REACT_APP_API_BASE;
+const API_BASE = "https://fullstack-mongo.herokuapp.com/api";
 const TUITS_API = `${API_BASE}/tuits`
 
 
@@ -27,12 +27,6 @@ export const deleteTuit = async (tuits) => {
 
 
 export const updateTuit = async (tuits) => {
- const response = await axios
-   .put(`${TUITS_API}/${tuits._id}`, tuits);
- return response.data;
-}
-
-export const dislikeTuit = async (tuits) => {
  const response = await axios
    .put(`${TUITS_API}/${tuits._id}`, tuits);
  return response.data;
