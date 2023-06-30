@@ -13,7 +13,7 @@ const tuits = useSelector(
        findAllTuits(dispatch),
        []);
 const [newTuit, setNewTuit] =
-      useState({tuits: 'New tuit'});
+      useState({tuit: ''});
 
 
 
@@ -21,15 +21,15 @@ const [newTuit, setNewTuit] =
   <>
   <img src = "/images/susie.jpg" width="48" className="wd-display-img1"/>
 
-  <textarea className="whatstext" placeholder = "What's happening"
-    onChange={(e) =>
-      setNewTuit({...newTuit,
-      tuits: e.target.value})}></textarea>
-      <button onClick={() =>
-          createTuit(dispatch, newTuit)}
-            className="btn btn-primary btn-sm tweet">
-          Tuit
-        </button>
+   <textarea className="whatstext" placeholder = "What's happening"
+     onChange={(e) =>
+       setNewTuit({...newTuit,
+       tuit: e.target.value})}></textarea>
+       <button onClick={() =>
+           createTuit(dispatch, newTuit)}
+             className="btn btn-primary btn-sm tweet">
+           Tuit
+         </button>
 
     <ul className="list-group1">
 

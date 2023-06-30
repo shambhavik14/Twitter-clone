@@ -6,10 +6,12 @@ const WhatsHappening = () => {
       = useState('');
   const dispatch = useDispatch();
   const tuitClickHandler = () => {
-    dispatch({type: 'create-tuit',
-         tuit: whatsHappening
-       });
+        dispatch({type: 'create-tuit',
+             tuit: whatsHappening
+           });
+
   }
+
   return (
     <>
       <img src = "/images/susie.jpg" width="48" className="wd-display-img1"/>

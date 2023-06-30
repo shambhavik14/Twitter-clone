@@ -5,7 +5,7 @@ import TuitStats from "./tuit-stats"
 const TuitListItem = ({tuits}) => {
   const dispatch = useDispatch();
 
-  console.log(tuits);
+//  console.log(tuits);
     return(
             <li className="list-group-item1">
 

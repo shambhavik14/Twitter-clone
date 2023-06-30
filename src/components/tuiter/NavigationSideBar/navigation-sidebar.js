@@ -1,6 +1,7 @@
 import React from "react";
-import {Link} from "react-router-dom";
-const NavigationSidebar = ({active = 'explore'}) => {
+import {Link, useLocation} from "react-router-dom";
+const NavigationSidebar = () => {
+const loc = useLocation();
         return(
         <>
             <nav className="wd-first-column">
@@ -10,14 +11,14 @@ const NavigationSidebar = ({active = 'explore'}) => {
                     <ul className="nav flex-column">
                         <li className="nav-item">
                         <Link to = "/tuiter/"
-                              className={`list-group-item list-group-item-action {active === 'home' ? 'active' : ''}`}
+                              className={`list-group-item list-group-item-action ${loc.pathname === '/tuiter/' ? 'active' : ''}`}
                               aria-current="true">
                               <i className="fa fa-home"></i>
                                <span className="wd-menu-text">  Home</span>
                         </Link></li>
                         <li className="nav-item">
                         <Link to = "/tuiter/explore"
-                            className={`list-group-item list-group-item-action {active === 'explore' ? 'active' : ''}`}>
+                            className={`list-group-item list-group-item-action  ${loc.pathname === '/tuiter/explore' ? 'active' : ''}`}>
                             <i className="fa fa-hashtag"></i>
                             <span className="wd-menu-text">Explore</span>
                         </Link></li>
@@ -47,7 +48,7 @@ const NavigationSidebar = ({active = 'explore'}) => {
                         </Link></li>
                         <li className="nav-item">
                         <Link to = "/tuiter/profile"
-                            className="list-group-item list-group-item-action">
+                            className={`list-group-item list-group-item-action ${loc.pathname === '/tuiter/profile' ? 'active' : ''}`}>
                             <i className="fa fa-user"></i>
                             <span className="wd-menu-text">Profile</span>
                         </Link></li>
